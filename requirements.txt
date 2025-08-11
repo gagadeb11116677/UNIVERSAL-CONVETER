@@ -1,0 +1,4 @@
+Pillow>=9.5.0
+docx2pdf>=0.1.8
+pdf2docx>=0.1.7
+poppler-utils; sys_platform != "win32"
