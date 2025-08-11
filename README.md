@@ -86,8 +86,22 @@ Creammm – Icon, UX flow & beta testing
 Pillow, docx2pdf, pdf2docx – underlying libraries
 
 
+## 🔄 Update – Beta v0.1.0 (UI/UX Redesign)
 
----
+**Release Date:** 2025-08-11
+
+### ✨ Changes
+- **Complete UI Redesign**
+  - Cleaner and more modern flat style.
+  - Improved button and dropdown sizes for better usability.
+  - Smoother progress bar animation.
+  - Updated icons for a more consistent look.
+
+- **UX Enhancements**
+  - More readable layout and spacing.
+  - Clearer status messages during conversion.
+  - Dark/Light mode toggle for better accessibility.
+
 
 
 
