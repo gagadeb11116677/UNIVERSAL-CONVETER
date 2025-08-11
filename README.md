@@ -17,9 +17,10 @@ Maintained by **Xobe Development** in collaboration with **Creammm**.
 ---
 
 ## 🖼️ Logo / Badge
-![Logo](./assets/logo.png)  
-*(for dark/light backgrounds)*  
-Open-Source Beta Badge → ![Beta](./assets/beta-badge.svg)
+![Beta](https://img.shields.io/badge/status-beta-orange)
+![MIT](https://img.shields.io/badge/license-MIT-green)
+
+
 
 ---
 
@@ -87,4 +88,6 @@ Pillow, docx2pdf, pdf2docx – underlying libraries
 
 
 ---
+
+
 
