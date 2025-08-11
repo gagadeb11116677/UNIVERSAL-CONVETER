@@ -88,17 +88,3 @@ Pillow, docx2pdf, pdf2docx – underlying libraries
 
 ---
 
-## 🧩 Assets (Logo & Beta Badge)
-
-Place inside `assets/`:
-
-1. `logo.png`  
-   ![logo](https://i.imgur.com/8xYgV9K.png)  
-   *(Right-click → save as logo.png)*
-
-2. `beta-badge.svg`  
-   ```svg
-   <svg width="80" height="20" xmlns="http://www.w3.org/2000/svg">
-     <rect width="80" height="20" fill="#ff9800"/>
-     <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#fff" font-size="11">BETA</text>
-   </svg>
