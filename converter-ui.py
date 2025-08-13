@@ -1,12 +1,30 @@
+import os
+import subprocess
+import threading
+import logging
+from pathlib import Path
+
+# GUI
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
-from pathlib import Path
-import os, subprocess, threading, logging
-from PIL import Image
-import pandas as pd
-from docx2pdf import convert as d2p
-from pdf2docx import Converter as p2d
-from moviepy import VideoFileClip
+
+# Image processing
+from PIL import Image  # pip install Pillow
+
+# Data processing (Excel, CSV, JSON)
+import pandas as pd  # pip install pandas
+import openpyxl       # pip install openpyxl
+
+# Document conversion
+from docx2pdf import convert as d2p   # pip install docx2pdf
+from pdf2docx import Converter as p2d # pip install pdf2docx
+
+# Video/audio processing
+from moviepy import VideoFileClip  # pip install moviepy (requires ffmpeg)
+
+# Note:
+# - Untuk PDF → PNG, membutuhkan `pdftoppm` dari paket Poppler (instal manual sesuai OS)
+# - Untuk MP4 → MP3, membutuhkan ffmpeg (instal manual sesuai OS)
 
 VERSION = "0.2.0-BETA"
 
