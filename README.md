@@ -1,4 +1,4 @@
-# 📁 Universal File Converter – Beta v0.1.0
+# 📁 Universal File Converter – Beta v0.2.0
 
 **A simple, open-source desktop GUI for converting documents & images.**
 Maintained by **Xobe Development** in collaboration with **Creammm**.
@@ -14,8 +14,9 @@ Maintained by **Xobe Development** in collaboration with **Creammm**.
 | PNG → JPG            | ✅      |
 | JPG → PNG            | ✅      |
 | PDF → PNG (per page) | ✅      |
-| PNG → PDF            | ✅      |
-
+| PNG → PDF 
+|excel → json/csv      | ✅      |
+|mp4 →  mp3            | yes
 ---
 
 ## 🖼️ Logo / Badge
@@ -127,23 +128,23 @@ You are free to use, modify, and distribute under the terms of the MIT License.
 
 ---
 
-## 🔄 Update – Beta v0.1.0 (UI/UX Redesign)
+# 📦 Changelog — v0.2.0
 
-**Release Date:** 2025-08-11
+## ✨ New Features
+- Cleaner and more compact UI for better usability.
+- Added file conversion tools:
+  - **Excel ↔ CSV / JSON** conversion.
+  - **MP4 → MP3** audio extraction.
+- Real-time progress bar based on file size during processing.
 
-### ✨ Changes
+## 🛠 Improvements
+- Fixed minor bugs from the `0.1.x` series.
+- Optimized performance for large file conversions.
 
-* **Complete UI Redesign**
-
-  * Cleaner and more modern flat style.
-  * Improved button and dropdown sizes for better usability.
-  * Smoother progress bar animation.
-  * Updated icons for a more consistent look.
-
-* **UX Enhancements**
-
-  * More readable layout and spacing.
-  * Clearer status messages during conversion.
-  * Dark/Light mode toggle for better accessibility.
+## 🚫 Removed
+- No additional logos or icons included in this release.
 
 ---
+
+**Credits:** Developed by **XOBE DEVELOPMENT** & **creammm**  
+**License:** MIT
